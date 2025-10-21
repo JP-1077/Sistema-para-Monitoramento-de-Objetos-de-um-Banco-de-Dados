@@ -44,6 +44,7 @@ O sistema é composto por três camadas principais:
   * Permite filtragem e consulta de eventos históricos.
 
 ## 5. Funcionalidades do Sistema
+
 * **Monitoramento de Jobs**
 
   * Identifica jobs com falha, sucesso ou em execução.
@@ -63,10 +64,27 @@ O sistema é composto por três camadas principais:
 * **Logs e Alertas Visuais**
 
   * Exibição de alertas e status por cores e indicadores no dashboard.
-
-## Demonstração
-
-
-
   * Registro de logs para auditoria e acompanhamento técnico.
+
+## 6. Demonstração do sistema
+
+* **Interface para Acompanhamento dos Jobs do banco armazenados no SQL Server Agent Jobs**
+  
+Fornecer uma visão consolidada das execuções de jobs, permitindo identificar falhas, sucessos e horários de execução de forma rápida e visual, facilitando a tomada de decisão e o diagnóstico de incidentes.
+Certamente, aqui temos em tempo real, o status de execução dos jobs do banco de dados SQL Server, permitindo que a equipe de analytics acompanhe facilmente o funcionamento das rotinas automatizadas do ambiente.
+![Tela de Monitoramento de Jobs](./img/Tela_Monitoramento_Jobs_Banco.png)
+
+
+
+* **Tela para monitoramento das tabelas do banco de dados**
+
+Fornecer uma visão consolidada das principais tabelas do banco de dados, exibindo indicadores que demonstram se cada tabela foi atualizada dentro do prazo definido pelas regras de negócio.
+Essa visualização permite identificar atrasos, falhas de carga ou inconsistências em tempo real, contribuindo para a qualidade e confiabilidade das informações corporativas.
+
+![Tela de Monitoramento de Jobs](./img/Tela_Monitoramento_Tabelas_Banco.png)
+
+## 7. Conclusão
+
+O Sistema de Monitoramento Banco de Dados BDS representa uma solução estratégica para gestão e visibilidade das operações de um banco de dados, permitindo controle proativo, transparência e agilidade no acompanhamento de rotinas críticas.
+
 
