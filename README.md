@@ -27,3 +27,4 @@ Ele oferece uma visão consolidada e em tempo quase real das principais rotinas 
 
 ## 4.1 Arquitetura do sistema
 
+<img src="arquitetura.png" alt="Arquitetura" width="600"/>
