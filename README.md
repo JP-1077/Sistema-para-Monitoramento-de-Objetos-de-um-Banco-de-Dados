@@ -14,4 +14,16 @@ Ele oferece uma visão consolidada e em tempo quase real das principais rotinas 
 
 * Reduzir o tempo de resposta em incidentes de falha ou atraso em processos.
 
-## 3. 
+## 3. Ferramentas Utilizadas
+
+| Camada         | Tecnologia                                              | Descrição                                    |
+| -------------- | ------------------------------------------------------- | -------------------------------------------- |
+| Banco de Dados | SQL Server                                              | Armazena dados das tabelas, jobs e processos |
+| Back-End       | SQL e Python                                            | Procedures, consultas e conexão com banco de dados |
+| Front-End      | Dashboard | Interface visual para monitoramento e análise                  |
+| Infraestrutura | Nuvem                                                   | Hospedagem do sistema    |
+
+## 4. System Design
+
+## 4.1 Arquitetura do sistema
+
