@@ -25,6 +25,48 @@ Ele oferece uma visão consolidada e em tempo quase real das principais rotinas 
 
 ## 4. System Design
 
-## 4.1 Arquitetura do sistema
+### 4.1 Arquitetura do sistema
 
-<img src="arquitetura.png" alt="Arquitetura" width="600"/>
+<img src="Arquitetura.png" alt="Arquitetura" width="600"/>
+
+O sistema é composto por três camadas principais:
+
+* **Banco de Dados**
+  * Repositório central com as informações consolidadas.
+  * Armazena logs, status de jobs e dados para monitoramento dos objetos do banco.
+* **Back - End**
+  * Responsável pela extração, transformação e carga dos dados monitorados.
+  * Realiza consultas e procedures para carga dos dados.
+  * Alimenta o banco de dados BDS atráves do banco externo msdb. que é a base de informações do painel.
+* **Front - End**
+  * Interface visual para acompanhamento das informações.
+  * Exibe tabelas e indicadores de status dos processos e tabelas.
+  * Permite filtragem e consulta de eventos históricos.
+
+## 5. Funcionalidades do Sistema
+* **Monitoramento de Jobs**
+
+  * Identifica jobs com falha, sucesso ou em execução.
+
+  * Permite acompanhar o histórico de execuções.
+
+* **Monitoramento de Tabelas**
+
+  * Executa consultas específicas para verificar volume de dados e consistência.
+
+  * Permite identificar tabelas críticas ou com anomalias.
+
+* **Monitoramento de Processos**
+
+  * Avalia a execução de rotinas automáticas e fluxos internos do banco.
+
+* **Logs e Alertas Visuais**
+
+  * Exibição de alertas e status por cores e indicadores no dashboard.
+
+## Demonstração
+
+
+
+  * Registro de logs para auditoria e acompanhamento técnico.
+
